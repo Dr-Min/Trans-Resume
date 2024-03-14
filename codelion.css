@@ -61,14 +61,21 @@ h2:hover {
 
 .title-box {
     text-align: right;
-    transition:
-        color 0.3s ease-in-out, transform 0.3s ease;
+
 }
 
-.title-box:hover {
-    color: teal;
-    transform: translate(-500px);
+.title-box h1 {
+    text-align: right;
+    transition:
+    color 1s ease-in-out, transform 1s ease;
+    content: "민경식";
+}
 
+
+.title-box h1:hover {
+    color: teal;
+    transform: translate(-500px) rotateX(360deg);
+    content: "Min";
 
 }
 
